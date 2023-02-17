@@ -16,6 +16,9 @@ class Vector:
     def get_coord(self):
         return self.x, self.y
 
+    def get_coord2(self):
+        return self.x, self.y
+
 v = Vector(1,2)
 res = v.get_coord()
 print(res)
